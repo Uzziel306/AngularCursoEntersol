@@ -1,6 +1,6 @@
 export class Post{
     constructor(
-        calle : String,
-        codigopostal: string,
-        razonsocial : string){}
+       public calle : string,
+       public codigopostal: string,
+       public razonsocial : string){}
 }
